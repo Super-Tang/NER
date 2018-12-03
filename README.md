@@ -25,9 +25,9 @@ try5: [wordID， word’s characteristics， beforeWordID* 2, afterWordID*1 ]
 #### model包下是程序中用到的一些类的定义，MaxEnt类是主要的类
 #### utils包下的两个类是对程序中用的数据进行处理
 #### features6 是第六组特征，特征模板为[wordID， word’s characteristics， beforeWord* 2， afterword* 2]
-###！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+### ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
 ### 如何运行其中的程序
 ######Main类中的main函数可以直接运行
 ######如果需要提取新的特征进行训练，需根据自己要使用的特征模板修改utils包下的类中的部分代码（TODO部分）
 ######修改完这部分代码之后，需要运行两个类中的main函数
-######之后将Main类中的main方法中的文件路径修改即可运行
+######之后将Main类中的main方法中的文件路径修改即可运行 
